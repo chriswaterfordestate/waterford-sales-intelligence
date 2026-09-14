@@ -69,7 +69,7 @@ databases:
   - name: waterford-si-db
     databaseName: waterford_si
     user: waterford
-    plan: starter             # includes automated daily backups and 7-day retention
+    plan: basic-256mb             # includes automated daily backups and 7-day retention
     region: oregon            # match web service region
 
 # NOTE: Redis/Celery is NOT required for current functionality.
