@@ -230,8 +230,33 @@ def commercial_dashboard(
             fy27_periods = cur.fetchall()
 
             if not fy27_periods:
-                return {"actual_year": actual_year, "compare_year": compare_year,
-                        "fy27_periods": [], "note": "No FY2027 data yet"}
+                # Keep the response contract stable for a freshly bootstrapped database.
+                # The production UI must be able to render before the first sales import.
+                return {
+                    "actual_year": actual_year,
+                    "compare_year": compare_year,
+                    "ytd_label": None,
+                    "ytd_periods": [],
+                    "totals": {
+                        "fy27_bottles": 0.0,
+                        "fy27_rv_confirmed": 0.0,
+                        "fy26_bottles": 0.0,
+                        "fy26_rv_confirmed": 0.0,
+                        "yoy_pct": None,
+                    },
+                    "distributor_sell_in": {
+                        "bottles": 0.0,
+                        "rv_confirmed": 0.0,
+                        "note": "No FY2027 sales imported yet.",
+                    },
+                    "fy27_breakdown": [],
+                    "fy26_comparison": {},
+                    "product_mix": [],
+                    "targets": [],
+                    "queue": {"open_items": 0, "pending_bottles": 0.0},
+                    "data_note": "No FY2027 sales imported yet. Use the Import Centre to load sales data.",
+                    "note": "No FY2027 data yet",
+                }
 
             ytd_months = [(p['calendar_year'], p['calendar_month']) for p in fy27_periods]
             ytd_label = f"{fy27_periods[0]['period_name']} – {fy27_periods[-1]['period_name']}"

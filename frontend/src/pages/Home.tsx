@@ -61,13 +61,15 @@ export function HomePage() {
     <div className="p-8 text-red-600 text-sm">Error: {err || 'No data'}</div>
   )
 
-  const t = dash.totals
-  const si = dash.distributor_sell_in
+  // A freshly bootstrapped production database can legitimately have no sales yet.
+  // Keep the dashboard renderable until the first FY2027 import is completed.
+  const t = dash.totals ?? { fy27_bottles: 0, fy27_rv_confirmed: 0, fy26_bottles: 0, fy26_rv_confirmed: 0, yoy_pct: null }
+  const si = dash.distributor_sell_in ?? { bottles: 0, rv_confirmed: 0, note: '' }
   const unknownCount = queue.find((s: any) => s.issue_type === 'UNKNOWN_CLIENT')?.count || 0
 
   // Territory breakdown (DIRECT_SALE rows only, for end-client performance)
-  const terrRows = dash.fy27_breakdown.filter(r => r.transaction_type !== 'DISTRIBUTOR_SELL_IN')
-  const topProd = dash.product_mix.slice(0, 10)
+  const terrRows = (dash.fy27_breakdown ?? []).filter(r => r.transaction_type !== 'DISTRIBUTOR_SELL_IN')
+  const topProd = (dash.product_mix ?? []).slice(0, 10)
 
   return (
     <div className="space-y-6">
@@ -76,13 +78,13 @@ export function HomePage() {
         <div>
           <h1 className="text-2xl font-bold text-[#1F3864]">FY2027 Commercial Dashboard</h1>
           <p className="text-gray-500 text-sm mt-1">
-            {dash.ytd_label} vs equivalent {dash.compare_year} period.
+            {dash.ytd_label || 'No FY2027 sales imported yet'}{dash.ytd_label ? ` vs equivalent ${dash.compare_year} period.` : '.'}
             ERP revenue confirmed · Sell-through estimated.
           </p>
         </div>
-        {dash.queue.open_items > 0 && (
+        {(dash.queue?.open_items ?? 0) > 0 && (
           <span className="text-xs bg-amber-100 text-amber-800 px-2 py-1 rounded font-medium">
-            {dash.queue.open_items.toLocaleString('en-ZA')} pending queue items
+            {(dash.queue?.open_items ?? 0).toLocaleString('en-ZA')} pending queue items
           </span>
         )}
       </div>
@@ -108,7 +110,7 @@ export function HomePage() {
         <KPI
           label="Pending Resolution"
           value={fmt(unknownCount)}
-          sub={`${fmt(dash.queue.pending_bottles)} btls on hold`}
+          sub={`${fmt(dash.queue?.pending_bottles ?? 0)} btls on hold`}
           warn={unknownCount > 100}
         />
       </div>
