@@ -1,0 +1,393 @@
+PROPOSED_ACTION|GROUP|GROUP_LABEL|DEBTOR_CODE|ERP_NAME|ERP_GROUP|ERP_REP|ERP_AREA|BOTTLES|NET_REV_ZAR|QUEUE_ROWS|PROPOSED_CANONICAL_NAME
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|UNDE0002|BONDED Under the Influence|Local - Non-Trade|Werner Briedenhann|Local - Western Cape|4650|595686|44|BONDED Under the Influence
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINEWI01|Winewise CC|Local - Liquor Stores|Head Office|Local - Western Cape|6146|472365|123|Winewise CC
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CUISI001|Cuisino (Pty) Ltd|Local - Restaurants|Sandile Yende|Local - Gauteng|548|443771|69|Cuisino (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FANC0001|Plattner Golf(Pty)Ltd Fancourt|Local - Hotels & Guest Houses|Jane Simon|Local - Garden Route / ECape|4218|395445|117|Plattner Golf(Pty)Ltd Fancourt
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINEOF01|Wine of the Month Club|Local - Non-Trade|Sergio King|Local - Western Cape|2160|378067|67|Wine of the Month Club
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|JOHN0003|Johnnys Liquor Hypermarket Sch|Local - Liquor Stores|Moya Fourie|Local - Gauteng|1656|295253|87|Johnnys Liquor Hypermarket Sch
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BARK0001|Bar Keeper (Pty) Ltd|Local - Restaurants|Sergio King|Local - Western Cape|2171|260807|82|Bar Keeper (Pty) Ltd
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQ C JA|Liquor City Jan Smuts|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|1321|244089|83|Liquor City Jan Smuts
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|THAN0001|Thanda Private Game Reserve|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|2760|234936|32|Thanda Private Game Reserve
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINEGL01|The Wine Glass Stellenbosch|Local - Restaurants|Nathalie Watkins|Local - Western Cape|1152|219923|153|The Wine Glass Stellenbosch
+CREATE_CANONICAL|PICARDI|Picardi Rebel chain store|PICARD11|Picardi Rebel Waterfront Drive|Local - Chain Stores|Nathalie Watkins|Local - Garden Route / ECape|2884|213636|30|Picardi Rebel Waterfront Drive
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SEAP0001|Sea Point Spar|Local - Chain Stores|Sergio King|Local - Western Cape|1471|203940|224|Sea Point Spar
+CREATE_CANONICAL|PRESTONS|Prestons Liquor chain (Garden Route)|PREST008|Prestons Main Road Walmer|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|1268|197623|51|Prestons Main Road Walmer
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0004|Tops- Cape Quarter Foods|Local - Liquor Stores|Sergio King|Local - Western Cape|2340|190772|50|Tops- Cape Quarter Foods
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINESO01|The Wine Society|Local - Non-Trade|Nathalie Watkins|Local - Western Cape|2118|182592|10|The Wine Society
+CREATE_CANONICAL|PICARDI|Picardi Rebel chain store|PICARDI5|Picardi Rebel MainstreamCentre|Local - Chain Stores|Sergio King|Local - Western Cape|2760|179868|14|Picardi Rebel MainstreamCentre
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TASTIN01|The Tasting Room Long|Local - Restaurants|Head Office|Local - Gauteng|1111|179651|86|The Tasting Room Long
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PLAT0003|Platinum Distribution Centre|Local - Liquor Stores|Head Office|Local - Gauteng|648|172932|11|Platinum Distribution Centre
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SAFAR001|Safari Wine Club|Local - Non-Trade|Maggie Colman|Local - Mpumalanga|1050|159134|72|Safari Wine Club
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BOULE002|Boulevard Cellars Liquor Store|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|450|158567|40|Boulevard Cellars Liquor Store
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0026|Tops Beacon Isle|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|1356|150224|109|Tops Beacon Isle
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MOOI0001|Mooiberge Winery|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|4043|132535|36|Mooiberge Winery
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|KOMA0001|SADF Wholesalers t/a Komati|Local - Distributors|Maggie Colman|Local - Mpumalanga|342|128332|9|SADF Wholesalers t/a Komati
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTR0001|Ultra Liquors - Green Point|Local - Liquor Stores|Sergio King|Local - Western Cape|966|127527|80|Ultra Liquors - Green Point
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0010|Tops @ Village Square|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|1080|123081|62|Tops @ Village Square
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VINE0001|Vineyard Connection|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|780|121091|8|Vineyard Connection
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSL001|Tops @ Lifestyle|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|552|118975|50|Tops @ Lifestyle
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|RAVO0001|Ravo-Dek Landgoed cc|Local - Non-Trade|Head Office|Local - Gauteng|480|113393|18|Ravo-Dek Landgoed cc
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LACO0002|La Cotte Inn Wine Sales|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|1187|111903|102|La Cotte Inn Wine Sales
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FOUR0002|Four Seasons The Westcliff|Local - Hotels & Guest Houses|Sandile Yende|Local - Gauteng|769|109442|28|Four Seasons The Westcliff
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSM001|Tops @ Malelane|Local - Chain Stores|Maggie Colman|Local - Mpumalanga|690|104802|85|Tops @ Malelane
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|DND00001|Durban North Liquors|Local - Distributors|Kelsey KZN|Local - Kwazulu Natal|118|103297|11|Durban North Liquors
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQU0036|Liquor City - Claremont|Local - Liquor Stores|Sergio King|Local - Western Cape|918|98803|45|Liquor City - Claremont
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CULT0002|Cultigrain (Pty) Ltd|Local - Non-Trade|Head Office|Private clients - Western Cape|376|94401|162|Cultigrain (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LACOL001|La Colombe|Local - Restaurants|Sergio King|Local - Western Cape|180|89671|13|La Colombe
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CAPE0005|Cape Grace|Local - Hotels & Guest Houses|Sergio King|Local - Western Cape|678|88708|46|Cape Grace
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MARBLE01|Marble Restaurants SA (Pty)Ltd|Local - Restaurants|Sandile Yende|Local - Gauteng|240|88282|32|Marble Restaurants SA (Pty)Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MOUN0001|Mount Nelson|Local - Hotels & Guest Houses|Sergio King|Local - Western Cape|690|85487|21|Mount Nelson
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GENKI001|GENKI|Local - Restaurants|Nathalie Watkins|Local - Western Cape|1188|82705|76|GENKI
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|HOUGH001|Houghton Estate Boutique Hotel|Local - Hotels & Guest Houses|Head Office|Local - Gauteng|582|82281|64|Houghton Estate Boutique Hotel
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|URBIN001|Ur Bin Wine Cellar|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|723|79467|71|Ur Bin Wine Cellar
+CREATE_CANONICAL|SPAR_GROUP|Spar/Kwikspar/SuperSpar location|KWIKS001|Kwikspar Somerset & Tops|Local - Chain Stores|Nathalie Watkins|Local - Western Cape|918|79377|99|Kwikspar Somerset & Tops
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CAMPF002|Rockwood Lodge (Pty) Ltd|Local - Hotels & Guest Houses|Nathalie Watkins|Local - Garden Route / ECape|864|78347|23|Rockwood Lodge (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BLACKHEA|t/a Blackheath Lodge|Local - Hotels & Guest Houses|Nathalie Watkins|Local - Western Cape|1044|76994|29|t/a Blackheath Lodge
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|INDUS001|Industrial Liquor Distributors|Local - Distributors|Maggie Colman|Local - Mpumalanga|540|76084|24|Industrial Liquor Distributors
+CREATE_CANONICAL|SPAR_GROUP|Spar/Kwikspar/SuperSpar location|SPARW001|Spar Wilderness Village|Local - Chain Stores|Jane Simon|Local - Garden Route / ECape|868|74602|36|Spar Wilderness Village
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|HOUSE001|House of Liquor|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|360|74549|34|House of Liquor
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VASC0001|Vasco Distributors|Local - Non-Trade|Moya Fourie|Local - Gauteng|694|73837|27|Vasco Distributors
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MALELA01|Malelane Super Spar|Local - Chain Stores|Mark le Roux|Local - Mpumalanga|480|71411|33|Malelane Super Spar
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SILVER02|Silver Forest|Local - Hotels & Guest Houses|Nathalie Watkins|Local - Western Cape|792|70937|91|Silver Forest
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BOOTHS01|Booths Liquor Store PTY LTD|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|768|70333|32|Booths Liquor Store PTY LTD
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VINE0002|The Vineyard Hotel & Spa|Local - Hotels & Guest Houses|Sergio King|Local - Western Cape|750|69641|33|The Vineyard Hotel & Spa
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ROBB0003|Robberg The Store|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|574|68886|31|Robberg The Store
+CREATE_CANONICAL|PICARDI|Picardi Rebel chain store|PICA0003|Picardi Rebel Claremont|Local - Chain Stores|Nathalie Watkins|Local - Western Cape|930|68787|12|Picardi Rebel Claremont
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CONST002|Constantia Wine & Craft|Local - Liquor Stores|Sergio King|Local - Western Cape|430|65671|39|Constantia Wine & Craft
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CHAMP001|Champagne Castle Hotel|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|834|64836|33|Champagne Castle Hotel
+CREATE_CANONICAL|INDEPENDENT|Mano's Restaurant (distinct from Manoushe — confirmed separate)|MANO0004|Mano's Restaurant|Local - Restaurants|Sergio King|Local - Western Cape|654|62340|51|Mano's Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ASTA0001|Asta Italian Restaurant|Local - Restaurants|Nathalie Watkins|Local - Western Cape|487|61606|29|Asta Italian Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BOTT0002|Bottega Cafe|Local - Restaurants|Sandile Yende|Local - Gauteng|726|61309|80|Bottega Cafe
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PARK0005|Parkmore Discount Liquors|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|558|57245|14|Parkmore Discount Liquors
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|POT LUCK|The Pot Luck Club|Local - Restaurants|Sergio King|Local - Western Cape|162|55653|21|The Pot Luck Club
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|DROST001|Drostdy Hotel|Local - Hotels & Guest Houses|Head Office|Local - Western Cape|264|53536|8|Drostdy Hotel
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LOND0001|Londolozi Game Reserve(Pty)Ltd|Local - Hotels & Guest Houses|Maggie Colman|Local - Mpumalanga|201|51065|23|Londolozi Game Reserve(Pty)Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SHORT002|Shorties Discount Liquors CC|Local - Liquor Stores|Sergio King|Local - Western Cape|527|50684|34|Shorties Discount Liquors CC
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQU0008|Liquor City Broadacres|Local - Liquor Stores|Helena Pires|Local - Gauteng|305|50463|33|Liquor City Broadacres
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VILLA003|Villa Afrikana Guest Suites CC|Local - Hotels & Guest Houses|Jane Simon|Local - Garden Route / ECape|606|50297|39|Villa Afrikana Guest Suites CC
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CANOPY01|t/a Canopy by Hilton Cape Town|Local - Hotels & Guest Houses|Sergio King|Local - Western Cape|234|50220|30|t/a Canopy by Hilton Cape Town
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0046|Tops Crossing|Local - Liquor Stores|Maggie Colman|Local - Mpumalanga|223|50105|40|Tops Crossing
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PEEC0001|The Peech Hotel (Pty) Ltd|Local - Hotels & Guest Houses|Koliswa Jayiya|Local - Gauteng|360|50029|31|The Peech Hotel (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WILDS001|The Wild Side Restaurant (Pty)|Local - Restaurants|Sandile Yende|Local - Gauteng|684|49219|73|The Wild Side Restaurant (Pty)
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BARR0004|Barringtons at Plett (Pty) Ltd|Local - Restaurants|Jane Simon|Local - Garden Route / ECape|624|48420|41|Barringtons at Plett (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MIDSTREA|Midstream Super Spar & Tops|Local - Chain Stores|Moya Fourie|Local - Gauteng|202|47892|41|Midstream Super Spar & Tops
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|YUPPIE01|Yuppiechef Online (Pty) Ltd|Local - Non-Trade|Nathalie Watkins|Local - Western Cape|47|47252|36|Yuppiechef Online (Pty) Ltd
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTR0005|Ultra Liquors - Wynberg|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|360|47025|48|Ultra Liquors - Wynberg
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LOWVE001|Lowveld Living Guesthouse|Local - Hotels & Guest Houses|Maggie Colman|Local - Mpumalanga|92|45413|20|Lowveld Living Guesthouse
+CREATE_CANONICAL|SPAR_GROUP|Spar/Kwikspar/SuperSpar location|SEDGE001|Sedgefield Superspar|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|516|45285|40|Sedgefield Superspar
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|34SOUTH1|34 South The Market (Pty) Ltd|Local - Restaurants|Jane Simon|Local - Garden Route / ECape|132|44811|3|34 South The Market (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MODE0001|Model Bottle Store|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|180|44275|1|Model Bottle Store
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ROYA0002|Royal Malewane (Pty) Ltd|Local - Hotels & Guest Houses|Maggie Colman|Local - Mpumalanga|192|44030|13|Royal Malewane (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FATF0001|The Fat Fish|Local - Restaurants|Jane Simon|Local - Garden Route / ECape|450|43136|37|The Fat Fish
+CREATE_CANONICAL|SPAR_GROUP|Spar/Kwikspar/SuperSpar location|HILT0003|Hilton Quarry SuperSpar|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|410|43096|31|Hilton Quarry SuperSpar
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ANDBEYON|And Beyond South Africa|Local - Hotels & Guest Houses|Maggie Colman|Local - Gauteng|432|42820|14|And Beyond South Africa
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SPARCQ01|Cape Quarter Spar|Local - Chain Stores|Sergio King|Local - Western Cape|426|42318|51|Cape Quarter Spar
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0035|Heatherpark Tops|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|372|41750|53|Heatherpark Tops
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|KARI0001|Karibu Restaurant|Local - Restaurants|Sergio King|Local - Western Cape|276|41442|11|Karibu Restaurant
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTR0010|Ultra Liquors - Hazelwood|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|366|41361|38|Ultra Liquors - Hazelwood
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FORU0001|The Forum Company (Pty) Ltd|Local - Restaurants|Koliswa Jayiya|Local - Gauteng|542|40147|10|The Forum Company (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BUHA0001|Buhala Country Lodge|Local - Hotels & Guest Houses|Maggie Colman|Local - Mpumalanga|222|39495|17|Buhala Country Lodge
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|HARTF001|Hartford House Hotel|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|180|39485|16|Hartford House Hotel
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|NGUN0001|t/a Nguni Restaurant|Local - Restaurants|Jane Simon|Local - Garden Route / ECape|174|38194|27|t/a Nguni Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CHEFS002|Chefs Warehouse Beau Constanti|Local - Restaurants|Sergio King|Local - Western Cape|144|37767|13|Chefs Warehouse Beau Constanti
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|STEF0001|Steffanie's Place|Local - Hotels & Guest Houses|Nathalie Watkins|Local - Western Cape|462|37342|32|Steffanie's Place
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQU0044|Liquor City Ballito Circle|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|468|37173|16|Liquor City Ballito Circle
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PORT0001|Port 2 Port (Pty) Ltd|Local - Distributors|Sergio King|Local - Western Cape|83|37054|21|Port 2 Port (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WIJN0001|Wijnhuis Stellenbosch|Local - Restaurants|Nathalie Watkins|Local - Western Cape|282|36961|26|Wijnhuis Stellenbosch
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|RHINO001|Rhino Ridge Safari Lodge|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|468|36889|22|Rhino Ridge Safari Lodge
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ST FRANC|St Francis Bay Liquorstore|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|318|36788|21|St Francis Bay Liquorstore
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PALAN001|Palanca Investments (Pty) Ltd|Local - Hotels & Guest Houses|Head Office|Local - Gauteng|211|36737|12|Palanca Investments (Pty) Ltd
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQCR001|Liquor City Ryngate cc|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|6|36667|3|Liquor City Ryngate cc
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SAXO0001|Saxon Hotel (PTY) LTD|Local - Hotels & Guest Houses|Sandile Yende|Local - Gauteng|180|36567|14|Saxon Hotel (PTY) LTD
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0029|Tops Hout Bay|Local - Liquor Stores|Sergio King|Local - Western Cape|360|36496|58|Tops Hout Bay
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|RFM00001|RFM Tailors - Tshepo Mashego|Local - Non-Trade|Koliswa Jayiya|Local - Gauteng|66|35800|11|RFM Tailors - Tshepo Mashego
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LIBE0003|Liberty Liquors - SandileThusi|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|270|35791|18|Liberty Liquors - SandileThusi
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PINKM001|Pink Mama's Pty Ltd|Local - Restaurants|Sandile Yende|Local - Gauteng|113|34745|24|Pink Mama's Pty Ltd
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0053|Tops - Oakhurst|Local - Liquor Stores|Sergio King|Local - Western Cape|348|34590|50|Tops - Oakhurst
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PIER0001|Pier & The Waterside Restauran|Local - Restaurants|Sergio King|Local - Western Cape|132|33870|7|Pier & The Waterside Restauran
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CHAP0001|Chapman's Peak Wine & Spirits|Local - Liquor Stores|Sergio King|Local - Western Cape|217|33509|18|Chapman's Peak Wine & Spirits
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MONTUS01|Montusi Mountain Lodge PTY Ltd|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|258|33061|18|Montusi Mountain Lodge PTY Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|NOOP0001|Noop Restaurant|Local - Restaurants|Nathalie Watkins|Local - Western Cape|68|32918|15|Noop Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BRAHMAN1|BrahmanHills (Pty) Ltd|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|186|32602|21|BrahmanHills (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|THONGA01|Thonga Beach Lodge (Pty) Ltd|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|294|31648|21|Thonga Beach Lodge (Pty) Ltd
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQC0061|Liquor City Key West|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|174|31416|17|Liquor City Key West
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTRA005|Ultra Liquors - Plettenberg|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|312|31200|30|Ultra Liquors - Plettenberg
+CREATE_CANONICAL|SPAR_GROUP|Spar/Kwikspar/SuperSpar location|KWIK SPA|Paul Roos Kwikspar|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|373|30823|59|Paul Roos Kwikspar
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTRA009|Ultra Liquors - Umhlali|Local - Liquor Stores|Head Office|Local - Kwazulu Natal|378|30292|21|Ultra Liquors - Umhlali
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|RUST0001|Rust en Vrede|Local - Restaurants|Nathalie Watkins|Local - Western Cape|153|29847|8|Rust en Vrede
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0027|Tops Helderbosch 35665|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|330|29643|46|Tops Helderbosch 35665
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CHORUS01|Chorus Restaurant|Local - Restaurants|Nathalie Watkins|Local - Western Cape|24|29568|5|Chorus Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINEIN01|Wine in the Warehouse Pty Ltd|Local - Liquor Stores|Head Office|Local - Western Cape|161|28489|20|Wine in the Warehouse Pty Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LOCO0001|Loco Liq Blairgowrie|Local - Liquor Stores|Helena Pires|Local - Gauteng|312|28119|24|Loco Liq Blairgowrie
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSGR01|Tops Greendale|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|294|28113|33|Tops Greendale
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LOCO0005|Loco Liq Crowthorne|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|54|28011|3|Loco Liq Crowthorne
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FYN00001|Fyn Restaurant (Pty) Ltd|Local - Restaurants|Sergio King|Local - Western Cape|12|27974|1|Fyn Restaurant (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TANNIN01|Tannin|Local - Restaurants|Sergio King|Local - Western Cape|48|27834|4|Tannin
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTRA008|Ultra Liquors - Somerset West|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|240|27484|39|Ultra Liquors - Somerset West
+CREATE_CANONICAL|PRESTONS|Prestons Liquor chain (Garden Route)|PREST014|Prestons Liquor Beacon Bay|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|138|27183|13|Prestons Liquor Beacon Bay
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TEST0004|The Test Kitchen Fledgelings|Local - Restaurants|Sergio King|Local - Western Cape|126|27088|18|The Test Kitchen Fledgelings
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQU0013|Liquor City - Beyers Naude|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|204|26813|20|Liquor City - Beyers Naude
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MOZAM002|Mozambik Eden|Local - Restaurants|Sergio King|Local - Western Cape|90|26549|13|Mozambik Eden
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MAGAL001|Magalies Liquor Wholesalers|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|192|26532|12|Magalies Liquor Wholesalers
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CBALI001|C-Bali Restaurant|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|336|26318|24|C-Bali Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SALSI001|Salsify (Pty) Ltd|Local - Restaurants|Sergio King|Local - Western Cape|36|26203|5|Salsify (Pty) Ltd
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQU0043|Liquor City Menlyn Whisky Em-|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|39|25931|14|Liquor City Menlyn Whisky Em-
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|DIEB0001|Die Boord Spar|Local - Chain Stores|Nathalie Watkins|Local - Western Cape|252|25815|42|Die Boord Spar
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0036|Sunrise Circle Tops 36027|Local - Liquor Stores|Sergio King|Local - Western Cape|282|25567|41|Sunrise Circle Tops 36027
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LAPET001|La Petite Colombe (Pty) Ltd|Local - Restaurants|Nathalie Watkins|Local - Western Cape|24|25387|9|La Petite Colombe (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|UTOPIA01|t/a Utopia|Local - Restaurants|Sergio King|Local - Western Cape|66|25101|11|t/a Utopia
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ERIN0001|Erinvale Golf Club|Local - Restaurants|Nathalie Watkins|Local - Western Cape|180|24756|10|Erinvale Golf Club
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|HOUW0001|Houw Hoek Farm Stall|Local - Restaurants|Nathalie Watkins|Local - Western Cape|234|24632|12|Houw Hoek Farm Stall
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GRAY0002|Grayston Prop. Number 002|Local - Non-Trade|Head Office|Local - Gauteng|24|24620|2|Grayston Prop. Number 002
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0044|Tops - Sunningdale|Local - Liquor Stores|Sergio King|Local - Western Cape|168|24467|28|Tops - Sunningdale
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0003|Tops Melville (Plett)|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|246|23933|41|Tops Melville (Plett)
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSP001|Parklands Tops|Local - Liquor Stores|Sergio King|Local - Western Cape|143|23926|23|Parklands Tops
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CAVERN01|Cavern Drakensberg Resort|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|168|23755|22|Cavern Drakensberg Resort
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BLUEB005|Blue Bottle Kloof Nek Liquors|Local - Liquor Stores|Sergio King|Local - Western Cape|360|23535|23|Blue Bottle Kloof Nek Liquors
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LADYB001|Ladybrand Liquor City|Local - Liquor Stores|Koliswa Jayiya|Local - Orange Free State|138|23415|6|Ladybrand Liquor City
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0007|Tops Rosmead|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|283|23237|28|Tops Rosmead
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CARO0001|Caroline's Fine Wine Sea Point|Local - Liquor Stores|Sergio King|Local - Western Cape|40|23159|8|Caroline's Fine Wine Sea Point
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|NEURO001|The Lion Trust|Local - Non-Trade|Head Office|Local - Western Cape|96|22857|2|The Lion Trust
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|DEJON001|De Jonker Kwik Spar|Local - Chain Stores|Nathalie Watkins|Local - Western Cape|261|22590|47|De Jonker Kwik Spar
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|RHONE001|Rhone Hill Polo Club|Local - Non-Trade|Head Office|Private clients - Garden Route|84|22425|3|Rhone Hill Polo Club
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MONTYS L|Montys Liquor Boutique|Local - Liquor Stores|Helena Pires|Local - Gauteng|99|22398|17|Montys Liquor Boutique
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINE CON|Wine Menu Kramerville|Local - Distributors|Koliswa Jayiya|Local - Gauteng|104|22045|11|Wine Menu Kramerville
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CHEFS003|The Chefs Table|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|36|21697|6|The Chefs Table
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSU001|Umhlanga Tops|Local - Chain Stores|Kelsey KZN|Local - Kwazulu Natal|217|21311|29|Umhlanga Tops
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|THRU0001|Thrupps Retail cc|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|150|21301|20|Thrupps Retail cc
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FLAV0001|Flavours Restaurant|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|270|21171|15|Flavours Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|DAWM0001|Dawm Distributors (Pty) Ltd|Local - Liquor Stores|Head Office|Local - Gauteng|124|21142|8|Dawm Distributors (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|URBA0001|Urbantonic (Pty) Ltd|Local - Non-Trade|Nathalie Watkins|Local - Western Cape|228|20452|6|Urbantonic (Pty) Ltd
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSM003|Mount Edgecombe Tops|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|234|20271|16|Mount Edgecombe Tops
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MAKBL001|Makro Bloemfontein|Local - Chain Stores|Head Office|Local - Orange Free State|66|20270|8|Makro Bloemfontein
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CODF0002|Codfather Mykatrade-Polofields|Local - Restaurants|Sandile Yende|Local - Gauteng|48|19998|7|Codfather Mykatrade-Polofields
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|JMS00001|Jock Morrison and Sons|Local - Chain Stores|Kelsey KZN|Local - Kwazulu Natal|204|19547|15|Jock Morrison and Sons
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LEOPARDM|Leopard Mountain Investments|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|234|19420|7|Leopard Mountain Investments
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|11THFL01|The 11th Floor Restaurant|Local - Restaurants|Sandile Yende|Local - Gauteng|8|19163|3|The 11th Floor Restaurant
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQCGR01|Liquor City Grayston|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|68|19088|10|Liquor City Grayston
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|OPENWINE|Open Wine ZA|Local - Liquor Stores|Sergio King|Local - Western Cape|126|18805|7|Open Wine ZA
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BAYALA01|Bayala Game Lodge (PTY) LTD|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|222|18792|13|Bayala Game Lodge (PTY) LTD
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|KAMBA001|Kambaku River Lodge (Pty) Ltd|Local - Hotels & Guest Houses|Maggie Colman|Local - Mpumalanga|114|18335|12|Kambaku River Lodge (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|OYST0001|Oyster Box Hotel|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|48|18326|8|Oyster Box Hotel
+CREATE_CANONICAL|PNP_BRANCH|Pick n Pay branch (not DC — separate from existing PnP DCs canonical)|PICKKZN1|Pick n Pay - The Avenues|Local - Chain Stores|Kelsey KZN|Local - Kwazulu Natal|162|18127|14|Pick n Pay - The Avenues
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSK001|Kensington Tops|Local - Chain Stores|Kelsey KZN|Local - Kwazulu Natal|168|17900|26|Kensington Tops
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TESTKITC|The Test Kitchen|Local - Restaurants|Sergio King|Local - Western Cape|78|17750|12|The Test Kitchen
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTRA001|Ultra Liquors - Parkview|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|132|17684|18|Ultra Liquors - Parkview
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|NINA0001|Nina's Cafe (Pty) Ltd|Local - Restaurants|Jane Simon|Local - Garden Route / ECape|156|17419|16|Nina's Cafe (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|EMIL0001|Emily Moon River Lodge Pty Ltd|Local - Restaurants|Jane Simon|Local - Garden Route / ECape|66|17284|5|Emily Moon River Lodge Pty Ltd
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0012|Tops - Stellenbosch/Helshoogte|Local - Chain Stores|Nathalie Watkins|Local - Western Cape|162|16879|26|Tops - Stellenbosch/Helshoogte
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ATLAN001|Atlantic Boat Club|Local - Restaurants|Sergio King|Local - Western Cape|204|16816|6|Atlantic Boat Club
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ROSENHOF|Rosenhof Country House & Art G|Local - Hotels & Guest Houses|Jane Simon|Local - Garden Route / ECape|156|16784|11|Rosenhof Country House & Art G
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSG001|Glenore Kwikspar & Tops|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|144|16782|21|Glenore Kwikspar & Tops
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSU002|Underberg Tops/SuperSpar|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|168|16753|21|Underberg Tops/SuperSpar
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0042|Tops - Yzerfontein|Local - Liquor Stores|Sergio King|Local - Western Cape|144|16595|15|Tops - Yzerfontein
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TIMEO001|Time Out Market|Local - Restaurants|Sergio King|Local - Western Cape|90|16517|7|Time Out Market
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LITTLE01|Little Pilgrims Pty Ltd|Local - Hotels & Guest Houses|Maggie Colman|Local - Mpumalanga|120|16486|6|Little Pilgrims Pty Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|KOI00002|Koi Restaurant - Menlyn Maine|Local - Restaurants|Moya Fourie|Local - Gauteng|60|16428|10|Koi Restaurant - Menlyn Maine
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTR0012|Ultra Liquors Mbombela|Local - Liquor Stores|Maggie Colman|Local - Mpumalanga|42|16275|5|Ultra Liquors Mbombela
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FINEW001|Fine Wine Company|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|108|16255|15|Fine Wine Company
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQU0037|Liquor City Knysna|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|174|16115|27|Liquor City Knysna
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CLAR0001|The Clarendon|Local - Hotels & Guest Houses|Sergio King|Local - Western Cape|144|15776|8|The Clarendon
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|EVEREST1|Everest Packaging Group|Local - Non-Trade|Head Office|Private clients - Western Cape|96|15500|21|Everest Packaging Group
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|THIRST01|Tamasa Trading/Thirsty S/Crow|Local - Restaurants|Nathalie Watkins|Local - Western Cape|168|15293|10|Tamasa Trading/Thirsty S/Crow
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINEDO03|Wine Down Boutique Bar and|Local - Restaurants|Moya Fourie|Local - Gauteng|102|15282|14|Wine Down Boutique Bar and
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTR0002|Ultra Liquors - Corlett Drive|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|84|15204|14|Ultra Liquors - Corlett Drive
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SALTA001|Salta Trading (Pty) Ltd - Spar|Local - Chain Stores|Kelsey KZN|Local - Kwazulu Natal|168|14876|19|Salta Trading (Pty) Ltd - Spar
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTR0004|Ultra Liquors - George|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|138|14869|22|Ultra Liquors - George
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|NAKED001|The Naked Woolf|Local - Restaurants|Sandile Yende|Local - Gauteng|156|14692|16|The Naked Woolf
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LALUKA01|Laluka Safari Lodge (Pty) Ltd|Local - Hotels & Guest Houses|Head Office|Local - North West|174|14219|6|Laluka Safari Lodge (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MIDST001|Midstream Ridge Trading(Pty)Lt|Local - Chain Stores|Head Office|Local - Gauteng|67|14121|15|Midstream Ridge Trading(Pty)Lt
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MONT0001|Mont Fleur|Local - Non-Trade|Nathalie Watkins|Local - Western Cape|134|13959|14|Mont Fleur
+CREATE_CANONICAL|SPAR_GROUP|Spar/Kwikspar/SuperSpar location|SPAR0007|Royal Ascot SuperSpar|Local - Liquor Stores|Sergio King|Local - Western Cape|162|13932|26|Royal Ascot SuperSpar
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GOWAN001|Gowan Valley Guest Farm CC|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|168|13802|17|Gowan Valley Guest Farm CC
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CODFJHB1|The Codfather Sandton|Local - Restaurants|Sandile Yende|Local - Gauteng|40|13604|5|The Codfather Sandton
+CREATE_CANONICAL|PRESTONS|Prestons Liquor chain (Garden Route)|PREST013|Prestons Liq Vincent - Nahoon|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|78|13478|8|Prestons Liq Vincent - Nahoon
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PUMULA01|Pumula Beach Hotel (Pty) Ltd|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|144|13403|6|Pumula Beach Hotel (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|UNDER001|Underberg Country Club|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|168|13140|5|Underberg Country Club
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ZIOUX001|Zioux Entertainment (Pty)Ltd|Local - Restaurants|Sandile Yende|Local - Gauteng|60|13102|6|Zioux Entertainment (Pty)Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GOOD0003|The Good Stuff Company Pty Ltd|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|84|13066|14|The Good Stuff Company Pty Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VINO0008|Vinosity|Local - Distributors|Koliswa Jayiya|Local - Gauteng|78|13049|9|Vinosity
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|1920REST|1920 Portuguese Restaurant|Local - Restaurants|Helena Pires|Local - Gauteng|6|13017|1|1920 Portuguese Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SAFARI01|Safari Supply Co and Deli t/a|Local - Liquor Stores|Maggie Colman|Local - Mpumalanga|73|12567|8|Safari Supply Co and Deli t/a
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GRIMAL01|Grimaldis Umhlanga|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|108|12358|17|Grimaldis Umhlanga
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CELL0004|t/a The Cellars-Hohenort|Local - Hotels & Guest Houses|Sergio King|Local - Western Cape|48|12358|4|t/a The Cellars-Hohenort
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQ00007|Liquor City Somerset Mall|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|111|12153|19|Liquor City Somerset Mall
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TONYS002|Tony's Liquor|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|132|12141|4|Tony's Liquor
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|21NET001|21 Nettleton|Local - Hotels & Guest Houses|Sergio King|Local - Western Cape|102|11931|9|21 Nettleton
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WEED0001|Weed Lovers Market|Local - Restaurants|Sandile Yende|Local - Gauteng|156|11794|6|Weed Lovers Market
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ALCHEMY1|Chanson Trading 1021 (Pty)Ltd|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|66|11775|11|Chanson Trading 1021 (Pty)Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LIBE0002|Liberty Liquors - PMB|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|150|11739|4|Liberty Liquors - PMB
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQU0006|Liquor City Lonehill|Local - Liquor Stores|Helena Pires|Local - Gauteng|114|11730|9|Liquor City Lonehill
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0031|Tops- Observatory     35700|Local - Liquor Stores|Sergio King|Local - Western Cape|102|11653|16|Tops- Observatory     35700
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|HILLS001|1000 Hills Brewco (Pty) Ltd|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|138|11632|11|1000 Hills Brewco (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BOOKCL01|The Book Club Restaurant|Local - Restaurants|Nathalie Watkins|Local - Western Cape|144|11412|14|The Book Club Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|RAWDO001|Rawdons Hotel + Restaurant|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|144|11163|11|Rawdons Hotel + Restaurant
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSC001|Constantia Tops|Local - Liquor Stores|Sergio King|Local - Western Cape|66|11119|12|Constantia Tops
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SALENE01|The Salene (Pty) Ltd|Local - Hotels & Guest Houses|Nathalie Watkins|Local - Western Cape|120|10953|7|The Salene (Pty) Ltd
+CREATE_CANONICAL|PRESTONS|Prestons Liquor chain (Garden Route)|PREST015|Preston's Liquor Stirling|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|54|10842|6|Preston's Liquor Stirling
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSG002|Tops Glencairn|Local - Chain Stores|Sergio King|Local - Western Cape|90|10808|15|Tops Glencairn
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|COOL0002|Coolsnax (Pty) Ltd|Local - Distributors|Head Office|Local - Western Cape|156|10717|6|Coolsnax (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|HALL0004|Daniel Haller|Local - Non-Trade|Head Office|Local - Gauteng|120|10716|1|Daniel Haller
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MAMAR001|Mama Roma Newlands|Local - Restaurants|Sergio King|Local - Western Cape|42|10716|7|Mama Roma Newlands
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|COY00001|COY RESTAURANT (PTY)LTD|Local - Restaurants|Sergio King|Local - Western Cape|6|10668|1|COY RESTAURANT (PTY)LTD
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GINO0001|Gino's|Local - Restaurants|Nathalie Watkins|Local - Western Cape|132|10498|18|Gino's
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MARR0001|Marriott Gardens Liquor|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|42|10425|4|Marriott Gardens Liquor
+CREATE_CANONICAL|PRESTONS|Prestons Liquor chain (Garden Route)|PREST012|Prestons George|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|138|10297|15|Prestons George
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|THULA001|Thula Thula Private Game Reser|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|60|10209|3|Thula Thula Private Game Reser
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|STILB001|Stilbaai Kelders|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|76|10196|6|Stilbaai Kelders
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WYN00001|Wyn-Derway Investments(Pty)Ltd|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|6|9730|1|Wyn-Derway Investments(Pty)Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MIXO0001|Mixology Restaurant|Local - Restaurants|Maggie Colman|Local - Mpumalanga|6|9730|1|Mixology Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|YUREST01|YU Restaurant at the Onyx|Local - Hotels & Guest Houses|Sergio King|Local - Western Cape|54|9616|4|YU Restaurant at the Onyx
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VINEV001|Vineyard Vault|Local - Distributors|Head Office|Local - Western Cape|54|9583|6|Vineyard Vault
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|DRYDOCK1|Dry Dock Parkhurst|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|61|9487|11|Dry Dock Parkhurst
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|EPICE001|Epice (Pty) Ltd|Local - Restaurants|Nathalie Watkins|Local - Western Cape|22|9420|5|Epice (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|AMBAS001|Ambassador Duty Free (Pty)Ltd|Local - Liquor Stores|Moya Fourie|Local - Gauteng|36|9387|2|Ambassador Duty Free (Pty)Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TOURVEST|Downtown Duty Free|Local - Liquor Stores|Head Office|Local - Western Cape|36|9287|3|Downtown Duty Free
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS WAT|Tops Waterfront|Local - Chain Stores|Jane Simon|Local - Garden Route / ECape|86|9147|15|Tops Waterfront
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSH001|Tops Hillcrest|Local - Chain Stores|Kelsey KZN|Local - Kwazulu Natal|42|8791|6|Tops Hillcrest
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TABAK002|Tabak Distribution Cape Town|Local - Distributors|Nathalie Watkins|Local - Western Cape|21|8758|4|Tabak Distribution Cape Town
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SUNNIN01|Sunningdale Liquors|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|60|8576|10|Sunningdale Liquors
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SWIRL002|SwirlCo|Local - Non-Trade|Moya Fourie|Private clients - Gauteng|60|8536|9|SwirlCo
+CREATE_CANONICAL|PICARDI|Picardi Rebel chain store|PICARD17|Picardi Rebel Laborie Paarl|Local - Chain Stores|Nathalie Watkins|Local - Western Cape|48|8314|6|Picardi Rebel Laborie Paarl
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0014|Tops Prospur|Local - Liquor Stores|Sergio King|Local - Western Cape|78|8283|11|Tops Prospur
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINESAF1|Wines on Safari|Local - Restaurants|Head Office|Local - Mpumalanga|60|8236|5|Wines on Safari
+CREATE_CANONICAL|PNP_BRANCH|Pick n Pay branch (not DC — separate from existing PnP DCs canonical)|PICKGC64|Pick n Pay on Nicol GC64|Local - Chain Stores|Head Office|Local - Gauteng|78|8208|4|Pick n Pay on Nicol GC64
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|KIEV0001|Kievits Kroon Gauteng Wine|Local - Hotels & Guest Houses|Moya Fourie|Local - Gauteng|30|7953|2|Kievits Kroon Gauteng Wine
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTR0009|Ultra Liquors - Newtown Park|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|78|7896|8|Ultra Liquors - Newtown Park
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|AUBE0001|Aubergine Restaurant|Local - Restaurants|Sergio King|Local - Western Cape|48|7823|2|Aubergine Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SAMA0001|Samara Private Game Reserve|Local - Hotels & Guest Houses|Head Office|Local - Western Cape|30|7820|4|Samara Private Game Reserve
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQC0063|Liquor City Hillcrest|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|96|7735|4|Liquor City Hillcrest
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSIS01|Tops @ The Island|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|54|7585|9|Tops @ The Island
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ROBICADI|Robica Distributors CC|Local - Non-Trade|Koliswa Jayiya|Local - Gauteng|30|7562|2|Robica Distributors CC
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GRANDP01|GMI - Ghost Mountain inn|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|60|7562|9|GMI - Ghost Mountain inn
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SIMOLA01|Simola Golf and Country Estate|Local - Hotels & Guest Houses|Jane Simon|Local - Garden Route / ECape|30|7562|3|Simola Golf and Country Estate
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINECO03|Wine Concepts - Newlands|Local - Liquor Stores|Sergio King|Local - Western Cape|102|7506|8|Wine Concepts - Newlands
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VINE0006|Vine Wine Bar (Pty) Ltd|Local - Restaurants|Maggie Colman|Local - Mpumalanga|36|7506|6|Vine Wine Bar (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SPEK0001|Spek en Bone (Pty) Ltd|Local - Restaurants|Nathalie Watkins|Local - Western Cape|21|7504|6|Spek en Bone (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LUPA0003|Lupa Osteria Westville|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|96|7497|9|Lupa Osteria Westville
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PROSO001|Prosopa Holdings (Pty) Ltd|Local - Restaurants|Moya Fourie|Local - Gauteng|84|7398|8|Prosopa Holdings (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINECOM1|Wine & Company|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|29|7269|7|Wine & Company
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FROG0001|The Frog (Pty) Ltd|Local - Restaurants|Sandile Yende|Local - Gauteng|90|7245|15|The Frog (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TRYN0001|t/a Tryn Restaurant|Local - Restaurants|Sergio King|Local - Western Cape|24|7219|3|t/a Tryn Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FRANK001|Frankie Fenner Meat Merchants|Local - Restaurants|Roxanne Rock|Local - Western Cape|42|7202|1|Frankie Fenner Meat Merchants
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|DULLSTRO|Dullstroom Tavern cc|Local - Restaurants|Maggie Colman|Local - Mpumalanga|78|7097|13|Dullstroom Tavern cc
+CREATE_CANONICAL|PNP_BRANCH|Pick n Pay branch (not DC — separate from existing PnP DCs canonical)|PICKKZN2|Pick n Pay - Athlone Circle|Local - Chain Stores|Kelsey KZN|Local - Kwazulu Natal|84|6752|7|Pick n Pay - Athlone Circle
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|THEWINE1|The Wine Shop by Caraffa|Local - Liquor Stores|Moya Fourie|Local - Gauteng|30|6590|4|The Wine Shop by Caraffa
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MERAKI02|Meraki by Charlie Lakin|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|36|6520|6|Meraki by Charlie Lakin
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTR0008|Ultra Liquors - East London|Local - Liquor Stores|Head Office|Local - Garden Route / ECape|42|6515|6|Ultra Liquors - East London
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FURNY001|Furny's Fine Wines & TasteRoom|Local - Restaurants|Sergio King|Local - Western Cape|4|6486|2|Furny's Fine Wines & TasteRoom
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS RIV|Tops Riverside|Local - Liquor Stores|Head Office|Local - Mpumalanga|36|6396|6|Tops Riverside
+CREATE_CANONICAL|PRESTONS|Prestons Liquor chain (Garden Route)|PREST003|Prestons Mount Pleasant|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|75|6135|11|Prestons Mount Pleasant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TSALA001|t/a Tsala Tree Top Lodge|Local - Hotels & Guest Houses|Jane Simon|Local - Garden Route / ECape|24|6049|4|t/a Tsala Tree Top Lodge
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSE001|Tops Eastman|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|72|5985|12|Tops Eastman
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CAPTAI01|Captain Liquor Distribution|Local - Distributors|Koliswa Jayiya|Local - Gauteng|24|5873|2|Captain Liquor Distribution
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|HOTEL VE|Hotel Verde (Pty) Ltd|Local - Hotels & Guest Houses|Nathalie Watkins|Local - Western Cape|72|5608|4|Hotel Verde (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BOHMS001|Bohms Zeederberg Guesthouse|Local - Hotels & Guest Houses|Maggie Colman|Local - Mpumalanga|72|5467|9|Bohms Zeederberg Guesthouse
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VERD0001|Verdicchio Restaurant|Local - Restaurants|Helena Pires|Local - Gauteng|36|5194|11|Verdicchio Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CONST003|Constantia Liquor Cellars Blue|Local - Liquor Stores|Head Office|Local - Gauteng|30|5151|4|Constantia Liquor Cellars Blue
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ELLE0001|Ellerman House|Local - Hotels & Guest Houses|Sergio King|Local - Western Cape|18|4928|1|Ellerman House
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSF001|Fig Tree Superspar & Tops|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|42|4923|7|Fig Tree Superspar & Tops
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|26ATFRA1|26 At Franks (Pty) Ltd|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|36|4869|4|26 At Franks (Pty) Ltd
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0037|Tops Mowbray|Local - Liquor Stores|Sergio King|Local - Western Cape|42|4838|7|Tops Mowbray
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|RODASH01|Rodash 125 (Pty) Ltd|Local - Hotels & Guest Houses|Head Office|Local - Western Cape|60|4826|6|Rodash 125 (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SUPER001|Westville Super Spar|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|60|4789|10|Westville Super Spar
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FRANKS01|Franks Speakeasy|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|18|4772|3|Franks Speakeasy
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|YELLOW01|The Yellow Door Restaurant|Local - Restaurants|Jane Simon|Local - Garden Route / ECape|8|4754|2|The Yellow Door Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BLACK003|The Black Rabbit|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|54|4653|7|The Black Rabbit
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CAROLINE|Carolines Fine Wine Tokai|Local - Liquor Stores|Sergio King|Local - Western Cape|32|4641|4|Carolines Fine Wine Tokai
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ROZEN001|Rozendal Farm cc|Local - Restaurants|Nathalie Watkins|Local - Western Cape|55|4576|7|Rozendal Farm cc
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|DEWAREN1|De Warenmarkt (Pty) Ltd|Local - Restaurants|Nathalie Watkins|Local - Western Cape|18|4537|3|De Warenmarkt (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ALBOURNE|Albourne Guest House|Local - Hotels & Guest Houses|Nathalie Watkins|Local - Western Cape|54|4455|3|Albourne Guest House
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FOREST01|Forest Hill Liquors BlueBottle|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|50|4430|5|Forest Hill Liquors BlueBottle
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GRAN0004|Granny Mouse Country House|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|48|4334|8|Granny Mouse Country House
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSM002|Tops Mount Edgecombe (old acc)|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|48|4215|4|Tops Mount Edgecombe (old acc)
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ABING001|Abingdon|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|18|4190|2|Abingdon
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CHAMP002|Champagne Valley Liquors|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|48|4134|6|Champagne Valley Liquors
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ONTHE001|On the Beach Guesthouse|Local - Hotels & Guest Houses|Jane Simon|Local - Garden Route / ECape|48|4119|8|On the Beach Guesthouse
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|FATFISHG|Fat Fish George|Local - Restaurants|Jane Simon|Local - Garden Route / ECape|42|4012|5|Fat Fish George
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0033|Tops- Palm Grove Centre 36146|Local - Liquor Stores|Sergio King|Local - Western Cape|42|3985|7|Tops- Palm Grove Centre 36146
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSK002|Tops Kloof Street|Local - Chain Stores|Sergio King|Local - Western Cape|18|3929|3|Tops Kloof Street
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|JOUB0003|Steve & Judy Joubert|Local - Non-Trade|Head Office|Private clients - Western Cape|18|3911|1|Steve & Judy Joubert
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|EIKE0003|Eike Restaurant|Local - Restaurants|Nathalie Watkins|Local - Western Cape|12|3897|3|Eike Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|AVON0002|Avon Chase Properties|Local - Non-Trade|Head Office|Local - Western Cape|42|3813|2|Avon Chase Properties
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0005|Tops - Sunninghill|Local - Liquor Stores|Helena Pires|Local - Gauteng|13|3759|3|Tops - Sunninghill
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|OXFORD02|Oxford Liquor Market Hillcrest|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|48|3741|4|Oxford Liquor Market Hillcrest
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SOMM0001|CharlesCBPoole - The Sommelier|Local - Distributors|Jane Simon|Local - Garden Route / ECape|36|3556|5|CharlesCBPoole - The Sommelier
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINEVI01|Wine Village, Hermanus|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|12|3545|1|Wine Village, Hermanus
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|OLIV0001|Oliver's Restaurant & Lodge|Local - Hotels & Guest Houses|Maggie Colman|Local - Mpumalanga|48|3542|8|Oliver's Restaurant & Lodge
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MODEL001|Model Liquor Distributors(Pty)|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|30|3529|3|Model Liquor Distributors(Pty)
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|NV 80 BA|NV-80 Grill & Bar (Pty)Ltd|Local - Restaurants|Sergio King|Local - Western Cape|8|3482|2|NV-80 Grill & Bar (Pty)Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ACENET01|Christel Vanhees|Local - Non-Trade|Head Office|Local - Western Cape|42|3444|3|Christel Vanhees
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TORB0001|Torburnlea (Pty) Ltd|Local - Hotels & Guest Houses|Maggie Colman|Local - Mpumalanga|12|3415|2|Torburnlea (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VENTU001|Venture Inn Liquors|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|12|3390|2|Venture Inn Liquors
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0024|Circle Centre Tops|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|42|3371|7|Circle Centre Tops
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0038|Tops Haasendal|Local - Liquor Stores|Sergio King|Local - Western Cape|42|3370|7|Tops Haasendal
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CAPIT001|Capito Restaurant|Local - Restaurants|Moya Fourie|Local - Gauteng|12|3286|2|Capito Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|OAKHILL1|Oakhill Cellars|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|12|3286|2|Oakhill Cellars
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SALON001|Salon Pty Ltd|Local - Restaurants|Sergio King|Local - Western Cape|6|3260|1|Salon Pty Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BLUE WAT|Blue Water Cafe/Old Cape Wine|Local - Restaurants|Sergio King|Local - Western Cape|18|3259|3|Blue Water Cafe/Old Cape Wine
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PINES001|The Pines|Local - Restaurants|Maggie Colman|Local - Mpumalanga|30|3227|3|The Pines
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CAFE6901|Cafe 69 Pub & Restaurant|Local - Restaurants|Sandile Yende|Local - Gauteng|30|3227|3|Cafe 69 Pub & Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|JOPLINS1|Joplins Steak Bar|Local - Restaurants|Jane Simon|Local - Garden Route / ECape|30|3120|5|Joplins Steak Bar
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|KRISP001|Krisp Cuisine & Cocktails|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|18|3081|3|Krisp Cuisine & Cocktails
+CREATE_CANONICAL|SPAR_GROUP|Spar/Kwikspar/SuperSpar location|KWIKS004|Alphen Kwikspar|Local - Liquor Stores|Sergio King|Local - Western Cape|36|3080|4|Alphen Kwikspar
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|NEIGH001|Neighbourgood Food & Bev|Local - Restaurants|Sergio King|Local - Western Cape|25|3078|4|Neighbourgood Food & Bev
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MAKHASA1|Makhasa Nature Reserve(PTY)Ltd|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|36|3020|3|Makhasa Nature Reserve(PTY)Ltd
+CREATE_CANONICAL|SPAR_GROUP|Spar/Kwikspar/SuperSpar location|SUPERS01|Crossing Superspar|Local - Liquor Stores|Maggie Colman|Local - Mpumalanga|36|3014|6|Crossing Superspar
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TONS0002|Baodu Zhengda Trading (Pty)Ltd|Local - Liquor Stores|Maggie Colman|Local - Mpumalanga|30|2976|4|Baodu Zhengda Trading (Pty)Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|OXFORD01|Oxford Liquor Market Waterfall|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|36|2883|4|Oxford Liquor Market Waterfall
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SOHO0002|SOHO att Brad Frew|Local - Restaurants|Sergio King|Local - Western Cape|16|2825|4|SOHO att Brad Frew
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LIEBEN01|LiebenLogistics Pty Ltd|Local - Non-Trade|Nathalie Watkins|Local - Western Cape|36|2761|3|LiebenLogistics Pty Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VINO0003|Vino Pronto|Local - Liquor Stores|Sergio King|Local - Western Cape|1|2725|1|Vino Pronto
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WINECO08|Wine Concepts on Kloof|Local - Liquor Stores|Sergio King|Local - Western Cape|12|2607|1|Wine Concepts on Kloof
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSZ001|Tops Zimbali Oasis|Local - Chain Stores|Kelsey KZN|Local - Kwazulu Natal|18|2606|3|Tops Zimbali Oasis
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CHEST001|Chestnut Farm cc t/a Chestnut|Local - Hotels & Guest Houses|Maggie Colman|Local - Mpumalanga|24|2439|3|Chestnut Farm cc t/a Chestnut
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MOOI0003|Mooinooi Liquors|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|29|2365|9|Mooinooi Liquors
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LUPA0002|Lupa Osteria Nelspruit|Local - Restaurants|Maggie Colman|Local - Mpumalanga|30|2316|5|Lupa Osteria Nelspruit
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SPARM001|TOPS MELKBOS Store: 36067|Local - Chain Stores|Sergio King|Local - Western Cape|30|2265|5|TOPS MELKBOS Store: 36067
+CREATE_CANONICAL|ULTRA|Ultra Liquors chain store|ULTR0011|Ultra Liquors - Pepper Square|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|12|2085|2|Ultra Liquors - Pepper Square
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ZSALZP01|Peter Salzwedel|Online Clients|Chris Thomson|Online sales|18|2074|3|Peter Salzwedel
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SHAYA001|Shayamoya Game Lodge|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|24|2042|3|Shayamoya Game Lodge
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BELLA004|Bellagio By Louise|Local - Restaurants|Sergio King|Local - Western Cape|6|1949|1|Bellagio By Louise
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|PATER001|Paternoster Wine & Tasting Bar|Local - Restaurants|Sergio King|Local - Western Cape|18|1917|5|Paternoster Wine & Tasting Bar
+CREATE_CANONICAL|WALMART|Walmart location (Massmart group — separate from Makro canonical)|WALM0001|Walmart Fourways Sandton|Local - Chain Stores|Koliswa Jayiya|Local - Gauteng|18|1865|3|Walmart Fourways Sandton
+CREATE_CANONICAL|WALMART|Walmart location (Massmart group — separate from Makro canonical)|WALM0002|Walmart Clearwater Mall|Local - Chain Stores|Koliswa Jayiya|Local - Gauteng|18|1829|3|Walmart Clearwater Mall
+CREATE_CANONICAL|SPAR_GROUP|Spar/Kwikspar/SuperSpar location|KWIKS003|Kwikspar - Green Point Pty Ltd|Local - Chain Stores|Sergio King|Local - Western Cape|24|1823|4|Kwikspar - Green Point Pty Ltd
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSB001|Tops Ballito Village|Local - Chain Stores|Kelsey KZN|Local - Kwazulu Natal|18|1785|3|Tops Ballito Village
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|MATSU001|Izakaya Matsuri|Local - Restaurants|Sergio King|Local - Western Cape|24|1771|2|Izakaya Matsuri
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|STEYN001|The Steyn City Hotel by Saxon|Local - Hotels & Guest Houses|Sandile Yende|Local - Gauteng|12|1695|1|The Steyn City Hotel by Saxon
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|EASTH001|East Head Cafe|Local - Restaurants|Jane Simon|Local - Garden Route / ECape|18|1670|3|East Head Cafe
+CREATE_CANONICAL|PRESTONS|Prestons Liquor chain (Garden Route)|PREST011|Prestons Port Alfred|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|6|1643|1|Prestons Port Alfred
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|VELD0001|Veld & Vine Bistro|Local - Restaurants|Sergio King|Local - Western Cape|6|1643|1|Veld & Vine Bistro
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SURF0001|Surf Riders Cafe - Cabanas|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|1|1643|1|Surf Riders Cafe - Cabanas
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LUNACY01|Nouveau Vino t/a Lunacy|Local - Restaurants|Sergio King|Local - Western Cape|6|1642|1|Nouveau Vino t/a Lunacy
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|AFROB001|Afro-Boer A Bakers Cafe|Local - Restaurants|Moya Fourie|Local - Gauteng|6|1642|1|Afro-Boer A Bakers Cafe
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GALJOEN1|Galjoen Restaurant|Local - Restaurants|Sergio King|Local - Western Cape|4|1610|2|Galjoen Restaurant
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BERAR001|Berario Liquors|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|6|1590|1|Berario Liquors
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPSGL01|t/a Tops Glen Acres|Local - Liquor Stores|Koliswa Jayiya|Local - Gauteng|6|1512|1|t/a Tops Glen Acres
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|9AVEN001|9th Avenue Marina|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|6|1512|1|9th Avenue Marina
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ESIWE001|Esiweni Luxury Safari Lodge|Local - Hotels & Guest Houses|Kelsey KZN|Local - Kwazulu Natal|6|1511|1|Esiweni Luxury Safari Lodge
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|WILDH001|Wild Horses Lodge|Local - Hotels & Guest Houses|Head Office|Local - Kwazulu Natal|12|1407|1|Wild Horses Lodge
+CREATE_CANONICAL|TOPS|Tops franchise location|TOPS0050|Tops - Blouberg|Local - Liquor Stores|Sergio King|Local - Western Cape|18|1381|3|Tops - Blouberg
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LYNEDOCH|National Pride Trading 566|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|18|1381|3|National Pride Trading 566
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BLUE0012|Blue Bottle Forest Hill Liquor|Local - Liquor Stores|Jane Simon|Local - Garden Route / ECape|18|1328|2|Blue Bottle Forest Hill Liquor
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|LAIR0001|Lairds Lodge|Local - Hotels & Guest Houses|Jane Simon|Local - Garden Route / ECape|6|1304|1|Lairds Lodge
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|ROOIK001|Rooikat Wholesale LiquorPTYltd|Local - Liquor Stores|Maggie Colman|Local - Mpumalanga|12|1219|2|Rooikat Wholesale LiquorPTYltd
+CREATE_CANONICAL|SPAR_GROUP|Spar/Kwikspar/SuperSpar location|PARADYS1|Paradyskloof Kwikspar & Tops|Local - Liquor Stores|Nathalie Watkins|Local - Western Cape|12|1053|2|Paradyskloof Kwikspar & Tops
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CLARA001|Clara's Barn|Local - Restaurants|Nathalie Watkins|Local - Western Cape|6|978|1|Clara's Barn
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|NEWP0001|T/A Newport Liquors|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|12|947|2|T/A Newport Liquors
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|SGCON001|SG Convenience Gauteng|Local - Chain Stores|Sandile Yende|Local - Gauteng|12|936|1|SG Convenience Gauteng
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|TREVOY01|Trevoyan Guesthouse cc|Local - Hotels & Guest Houses|Nathalie Watkins|Local - Western Cape|12|886|1|Trevoyan Guesthouse cc
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|KEERM001|Keermont Vineyards (Pty) Ltd|Local - Non-Trade|Head Office|Local - Western Cape|0|803|1|Keermont Vineyards (Pty) Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|STELL004|Helderberg Mountain Vineyards|Local - Non-Trade|Head Office|Local - Western Cape|0|803|1|Helderberg Mountain Vineyards
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|DORNIER1|Wildebosch Wines Pty Ltd|Local - Non-Trade|Head Office|Local - Western Cape|0|803|1|Wildebosch Wines Pty Ltd
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GEDRO001|Gerdro Management Company (Pty|Local - Non-Trade|Head Office|Private clients - Gauteng|1|782|2|Gerdro Management Company (Pty
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|STUART01|Spencer Stuart South Africa Pt|Local - Non-Trade|Head Office|Private clients - Gauteng|1|782|2|Spencer Stuart South Africa Pt
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BELLEVUE|Bellevue Cafe|Local - Restaurants|Kelsey KZN|Local - Kwazulu Natal|6|631|1|Bellevue Cafe
+CREATE_CANONICAL|WALMART|Walmart location (Massmart group — separate from Makro canonical)|WALM0003|Walmart Boksburg|Local - Distributors|Head Office|Local - Gauteng|6|610|1|Walmart Boksburg
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|GINCO001|Bay Estate (Pty)Ltd t/a Gin Co|Local - Restaurants|Maggie Colman|Local - Mpumalanga|2|547|1|Bay Estate (Pty)Ltd t/a Gin Co
+CREATE_CANONICAL|LIQUOR_CITY|Liquor City franchise location|LIQL0001|Liquor City St Lucia|Local - Liquor Stores|Kelsey KZN|Local - Kwazulu Natal|6|453|1|Liquor City St Lucia
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|DIRT0001|Dirt Road Liquor Distributors|Local - Liquor Stores|Maggie Colman|Local - Mpumalanga|6|443|1|Dirt Road Liquor Distributors
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|BYTHEW01|By the Waters African Trade|Local - Non-Trade|Head Office|Local - Gauteng|2|326|1|By the Waters African Trade
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|COLMANWI|Colman Wines|Local - Distributors|Head Office|Local - Mpumalanga|3|-13|3|Colman Wines
+CREATE_CANONICAL|INDEPENDENT|Named independent venue or business|CLUBCO01|Club Como Mediterranean Rest|Local - Restaurants|Sandile Yende|Local - Gauteng|102|-463|4|Club Como Mediterranean Rest

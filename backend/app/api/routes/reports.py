@@ -144,36 +144,58 @@ def rep_performance(
             """, (actual_year,))
             actuals = cur.fetchall()
 
-            # Territory-level targets for target_year
+            # Rep-level targets for target_year
+            # Queries by rep_id (primary) and territory_id (KZN fallback).
             cur.execute("""
-                SELECT t.territory_code, t.territory_name,
-                       fp.period_name, fp.calendar_month, fp.calendar_year,
-                       SUM(tg.target_bottles)    as target_bottles,
-                       SUM(tg.target_rand_value) as target_rv
-                FROM targets tg
-                JOIN territories t   ON t.id = tg.territory_id
-                JOIN financial_periods fp ON fp.id = tg.financial_period_id
-                JOIN financial_years fy   ON fy.id = fp.financial_year_id
-                WHERE fy.year_label = %s
-                  AND tg.territory_id IS NOT NULL
-                GROUP BY t.territory_code, t.territory_name,
-                         fp.period_name, fp.calendar_month, fp.calendar_year
-                ORDER BY t.territory_code, fp.calendar_month
-            """, (target_year,))
+                WITH rep_targets AS (
+                    SELECT r.rep_code, r.full_name as rep_name,
+                           fp.period_name, fp.calendar_month, fp.calendar_year,
+                           SUM(tg.target_bottles)    as target_bottles,
+                           SUM(tg.target_rand_value) as target_rv
+                    FROM targets tg
+                    JOIN reps r              ON r.id  = tg.rep_id
+                    JOIN financial_periods fp ON fp.id = tg.financial_period_id
+                    JOIN financial_years fy   ON fy.id = fp.financial_year_id
+                    WHERE fy.year_label = %s
+                      AND tg.rep_id IS NOT NULL
+                    GROUP BY r.rep_code, r.full_name,
+                             fp.period_name, fp.calendar_month, fp.calendar_year
+                ),
+                terr_targets AS (
+                    SELECT t.territory_code as rep_code,
+                           t.territory_name as rep_name,
+                           fp.period_name, fp.calendar_month, fp.calendar_year,
+                           SUM(tg.target_bottles)    as target_bottles,
+                           SUM(tg.target_rand_value) as target_rv
+                    FROM targets tg
+                    JOIN territories t        ON t.id  = tg.territory_id
+                    JOIN financial_periods fp ON fp.id = tg.financial_period_id
+                    JOIN financial_years fy   ON fy.id = fp.financial_year_id
+                    WHERE fy.year_label = %s
+                      AND tg.territory_id IS NOT NULL
+                      AND tg.rep_id IS NULL
+                    GROUP BY t.territory_code, t.territory_name,
+                             fp.period_name, fp.calendar_month, fp.calendar_year
+                )
+                SELECT * FROM rep_targets UNION ALL SELECT * FROM terr_targets
+                ORDER BY rep_code, calendar_year, calendar_month
+            """, (target_year, target_year))
             targets = cur.fetchall()
 
         # Build combined response with gap and achievement %
         target_map: dict = {}
         for tg in targets:
-            key = (tg['territory_code'], tg['calendar_month'])
+            key = (tg['rep_code'], tg['calendar_month'])
+            existing = target_map.get(key, {'target_bottles': 0.0, 'target_rv': 0.0})
             target_map[key] = {
-                'target_bottles': float(tg['target_bottles'] or 0),
-                'target_rv':      float(tg['target_rv'] or 0),
+                'target_bottles': existing['target_bottles'] + float(tg['target_bottles'] or 0),
+                'target_rv':      existing['target_rv']      + float(tg['target_rv'] or 0),
             }
 
         actuals_with_gap = []
         for a in actuals:
-            key  = (a['territory_code'], a['calendar_month'])
+            # Match by rep_code (from actuals join with reps table)
+            key  = (a['rep_code'], a['calendar_month'])
             tg   = target_map.get(key, {'target_bottles': None, 'target_rv': None})
             row  = dict(a)
             row['target_bottles'] = tg['target_bottles']
@@ -193,8 +215,9 @@ def rep_performance(
             'actuals':      actuals_with_gap,
             'targets':      [dict(t) for t in targets],
             'note': (f"Actuals from {actual_year} (Jul–Jun). "
-                     f"Targets from {target_year}. "
-                     f"Financial year runs July–June.")
+                     f"Targets from {target_year} per rep and SKU. "
+                     f"Financial year runs July–June. "
+                     f"Targets represent bottle volumes; R-value derived from ASPs.")
         }
     finally:
         conn.close()

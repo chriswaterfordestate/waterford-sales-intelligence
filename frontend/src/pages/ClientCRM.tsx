@@ -6,7 +6,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { Loader2, Plus, CheckCircle, AlertCircle, Calendar, Download } from 'lucide-react'
-import { commercialApi, crmApi, apiRequest, FOLLOW_UP_TYPES, SUPPORT_TYPES, SENTIMENTS, type Rep } from '../lib/api'
+import { commercialApi, crmApi, apiRequest, ownershipApi, type OwnershipRecord, FOLLOW_UP_TYPES, SUPPORT_TYPES, SENTIMENTS, type Rep } from '../lib/api'
 
 function fmtR(n:number|null|undefined){if(!n)return'R0';return`R${Math.round(n).toLocaleString('en-ZA')}`}
 function fmt(n:number|null|undefined){return Math.round(n||0).toLocaleString('en-ZA')}
@@ -213,6 +213,66 @@ function LogVisitModal({clientId, clientName, reps, onClose, onSaved}:
   )
 }
 
+
+// ── Change Ownership Modal ────────────────────────────────────────────────────
+function ChangeOwnershipModal({clientId, reps, onClose, onSaved}:
+  {clientId: string; reps: Rep[]; onClose: ()=>void; onSaved: ()=>void}) {
+  const [repId, setRepId] = useState('')
+  const [effectiveFrom, setEffectiveFrom] = useState(new Date().toISOString().split('T')[0])
+  const [notes, setNotes] = useState('')
+  const [saving, setSaving] = useState(false)
+  const [err, setErr] = useState('')
+
+  async function save() {
+    if (!repId) { setErr('Please select a rep.'); return }
+    setSaving(true); setErr('')
+    try {
+      await ownershipApi.change(clientId, repId, effectiveFrom, notes)
+      onSaved()
+      onClose()
+    } catch(e: any) { setErr(e.message) }
+    finally { setSaving(false) }
+  }
+
+  const inp = "w-full text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#1F3864]"
+  return (
+    <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50 p-4">
+      <div className="bg-white rounded-xl p-6 max-w-md w-full space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="font-semibold text-gray-800">Change Account Owner</h2>
+          <button onClick={onClose} className="text-gray-400 hover:text-gray-600 text-lg">✕</button>
+        </div>
+        <p className="text-xs text-gray-500">
+          The current owner will be closed the day before the selected effective date.
+          Historical sales data is not affected.
+        </p>
+        <div>
+          <label className="block text-xs font-medium text-gray-600 mb-1">New account rep</label>
+          <select value={repId} onChange={e=>setRepId(e.target.value)} className={inp}>
+            <option value="">— select rep —</option>
+            {reps.map(r=><option key={r.id} value={r.id}>{r.full_name} ({r.rep_code})</option>)}
+          </select>
+        </div>
+        <div>
+          <label className="block text-xs font-medium text-gray-600 mb-1">Effective from</label>
+          <input type="date" value={effectiveFrom} onChange={e=>setEffectiveFrom(e.target.value)} className={inp} />
+        </div>
+        <div>
+          <label className="block text-xs font-medium text-gray-600 mb-1">Notes (optional)</label>
+          <input value={notes} onChange={e=>setNotes(e.target.value)}
+            placeholder="e.g. Territory restructure Oct 2026" className={inp} />
+        </div>
+        {err && <p className="text-red-600 text-sm">{err}</p>}
+        <button onClick={save} disabled={saving}
+          className="w-full bg-[#1F3864] text-white text-sm py-2.5 rounded-lg hover:bg-[#2E5395] disabled:opacity-60 flex items-center justify-center gap-2">
+          {saving && <Loader2 size={14} className="animate-spin"/>}
+          Save ownership change
+        </button>
+      </div>
+    </div>
+  )
+}
+
 // ── Main Client CRM Page ─────────────────────────────────────────────────────
 export function ClientCRMPage() {
   const { clientId } = useParams<{clientId:string}>()
@@ -221,6 +281,8 @@ export function ClientCRMPage() {
   const [timeline, setTimeline] = useState<any>(null)
   const [health, setHealth] = useState<any>(null)
   const [gap, setGap] = useState<any>(null)
+  const [ownership, setOwnership] = useState<OwnershipRecord[]>([])
+  const [showOwnership, setShowOwnership] = useState(false)
   const [reps, setReps] = useState<Rep[]>([])
   const [loading, setLoading] = useState(true)
   const [showLog, setShowLog] = useState(false)
@@ -233,8 +295,10 @@ export function ClientCRMPage() {
       crmApi.accountHealth(clientId),
       crmApi.rangeGap(clientId),
       crmApi.reps(),
-    ]).then(([p,t,h,g,r]) => {
+      ownershipApi.history(clientId),
+    ]).then(([p,t,h,g,r,o]) => {
       setPerf(p); setTimeline(t); setHealth(h); setGap(g); setReps(r.reps)
+      setOwnership(o.history || [])
     }).finally(() => setLoading(false))
   }
   useEffect(reload, [clientId])
@@ -397,10 +461,66 @@ export function ClientCRMPage() {
         </div>
       )}
 
+      {/* Account Ownership Panel */}
+      {ownership.length > 0 || true ? (
+        <div className="bg-white border border-gray-200 rounded-lg p-4">
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Account Ownership</h2>
+            <button onClick={() => setShowOwnership(true)}
+              className="text-xs text-[#1F3864] hover:underline">
+              Change ownership
+            </button>
+          </div>
+          {ownership.filter(o => o.is_current).length > 0 ? (
+            ownership.filter(o => o.is_current).map((o, i) => (
+              <div key={i} className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm font-medium text-gray-800">{o.full_name}</p>
+                  <p className="text-xs text-gray-500">
+                    {o.territory_name && `${o.territory_name} · `}
+                    Effective {new Date(o.effective_from).toLocaleDateString('en-ZA', {day:'numeric',month:'short',year:'numeric'})}
+                    {o.change_reason === 'ERP_DERIVED' && (
+                      <span className="ml-1 text-gray-400">(ERP baseline)</span>
+                    )}
+                  </p>
+                </div>
+                <span className="text-[10px] bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full">Current</span>
+              </div>
+            ))
+          ) : (
+            <p className="text-sm text-amber-700 bg-amber-50 rounded p-2">No owner assigned</p>
+          )}
+          {ownership.filter(o => !o.is_current).length > 0 && (
+            <details className="mt-2">
+              <summary className="text-xs text-gray-400 cursor-pointer hover:text-gray-600">
+                {ownership.filter(o => !o.is_current).length} historical record(s)
+              </summary>
+              <div className="mt-2 space-y-1 pl-2 border-l-2 border-gray-100">
+                {ownership.filter(o => !o.is_current).map((o, i) => (
+                  <div key={i} className="text-xs text-gray-500">
+                    <span className="font-medium text-gray-700">{o.full_name}</span>
+                    {' '}·{' '}
+                    {new Date(o.effective_from).toLocaleDateString('en-ZA',{month:'short',year:'numeric'})}
+                    {o.effective_to && ` – ${new Date(o.effective_to).toLocaleDateString('en-ZA',{month:'short',year:'numeric'})}`}
+                  </div>
+                ))}
+              </div>
+            </details>
+          )}
+        </div>
+      ) : null}
+
       {showLog && (
         <LogVisitModal
           clientId={clientId!} clientName={client.canonical_name} reps={reps}
           onClose={() => setShowLog(false)}
+          onSaved={reload}
+        />
+      )}
+      {showOwnership && (
+        <ChangeOwnershipModal
+          clientId={clientId!} reps={reps}
+          onClose={() => setShowOwnership(false)}
           onSaved={reload}
         />
       )}

@@ -9,13 +9,15 @@ import os
 import json
 from typing import Optional
 
-# Use the canonical sync URL derived from DATABASE_URL in settings
+# Module-level DSN: set once at import time from settings.
+# The conftest per-test DATABASE_URL_SYNC fixture does NOT affect this value.
+# Tests that need a different DB must pass their own connection explicitly.
 from app.config import settings as _cfg_settings
-DSN = _cfg_settings.database_url_sync
+_DSN = _cfg_settings.database_url_sync
 
 
 def get_conn():
-    conn = psycopg2.connect(DSN)
+    conn = psycopg2.connect(_DSN)
     psycopg2.extras.register_uuid()
     return conn
 

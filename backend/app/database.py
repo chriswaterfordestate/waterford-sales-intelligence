@@ -130,8 +130,12 @@ from psycopg2.extras import register_uuid
 import os, sys
 
 def get_db_conn():
-    """Return a synchronous psycopg2 connection for API routes."""
-    # Use the canonical sync URL derived from DATABASE_URL in settings
+    """Return a synchronous psycopg2 connection for API routes.
+
+    Uses the module-level settings singleton (frozen at startup from DATABASE_URL_SYNC).
+    In tests, conftest.pytest_configure sets DATABASE_URL_SYNC before app.config is
+    imported, so settings.database_url_sync correctly reflects the test database.
+    """
     from app.config import settings as _settings
     dsn = _settings.database_url_sync
     if not dsn:

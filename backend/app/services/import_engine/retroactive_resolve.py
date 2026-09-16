@@ -148,7 +148,7 @@ def resolve_raw_row(
             r_status       = 'ESTIMATED'
             rand_confirmed = None
             rand_estimated = round(bottles_actual * asp['asp_value'], 2)
-            asp_version_id = asp['id']
+            asp_version_id = asp['asp_version_id']
         else:
             r_status       = 'MISSING'
             rand_confirmed = None

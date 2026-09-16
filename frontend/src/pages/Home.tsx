@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Package, Users, Loader2, TrendingUp, TrendingDown, Truck } from 'lucide-react'
-import { commercialApi, queueApi, type CommercialDashboard } from '../lib/api'
+import { commercialApi, type CommercialDashboard } from '../lib/api'
 
 function KPI({ label, value, sub, accent = false, warn = false }:
   { label: string; value: string; sub?: string; accent?: boolean; warn?: boolean }) {
@@ -36,17 +36,13 @@ function yoyBadge(pct: number | null | undefined) {
 
 export function HomePage() {
   const [dash, setDash] = useState<CommercialDashboard | null>(null)
-  const [queue, setQueue] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const [err, setErr] = useState<string | null>(null)
 
   useEffect(() => {
-    Promise.all([
-      commercialApi.dashboard('FY2027', 'FY2026'),
-      queueApi.summary(),
-    ]).then(([d, q]) => {
+    commercialApi.dashboard('FY2027', 'FY2026')
+    .then(d => {
       setDash(d)
-      setQueue(q.summary)
     }).catch(e => setErr(e.message))
       .finally(() => setLoading(false))
   }, [])
@@ -65,7 +61,6 @@ export function HomePage() {
   // Keep the dashboard renderable until the first FY2027 import is completed.
   const t = dash.totals ?? { fy27_bottles: 0, fy27_rv_confirmed: 0, fy26_bottles: 0, fy26_rv_confirmed: 0, yoy_pct: null }
   const si = dash.distributor_sell_in ?? { bottles: 0, rv_confirmed: 0, note: '' }
-  const unknownCount = queue.find((s: any) => s.issue_type === 'UNKNOWN_CLIENT')?.count || 0
 
   // Territory breakdown (DIRECT_SALE rows only, for end-client performance)
   const terrRows = (dash.fy27_breakdown ?? []).filter(r => r.transaction_type !== 'DISTRIBUTOR_SELL_IN')
@@ -98,7 +93,7 @@ export function HomePage() {
           accent
         />
         <KPI
-          label="Confirmed ERP Revenue"
+          label="Sales Revenue"
           value={fmtR(t.fy27_rv_confirmed)}
           sub={`vs ${fmtR(t.fy26_rv_confirmed)} FY26`}
         />
@@ -108,10 +103,21 @@ export function HomePage() {
           sub={`${dash.ytd_label}`}
         />
         <KPI
-          label="Pending Resolution"
-          value={fmt(unknownCount)}
-          sub={`${fmt(dash.queue?.pending_bottles ?? 0)} btls on hold`}
-          warn={unknownCount > 100}
+          label="Target Achieved (FY27 YTD)"
+          value={(() => {
+            const tot = (dash.targets ?? []).reduce((s: any, tg: any) => ({
+              act: s.act + (tg.actual_bottles ?? 0),
+              tgt: s.tgt + (parseFloat(tg.target_bottles ?? 0))
+            }), { act: 0, tgt: 0 })
+            return tot.tgt > 0 ? `${Math.round(tot.act / tot.tgt * 100)}%` : '—'
+          })()}
+          sub={(() => {
+            const tot = (dash.targets ?? []).reduce((s: any, tg: any) => ({
+              act: s.act + (tg.actual_bottles ?? 0),
+              tgt: s.tgt + (parseFloat(tg.target_bottles ?? 0))
+            }), { act: 0, tgt: 0 })
+            return tot.tgt > 0 ? `${fmt(tot.act)} of ${fmt(tot.tgt)} target btls` : 'No targets loaded'
+          })()}
         />
       </div>
 

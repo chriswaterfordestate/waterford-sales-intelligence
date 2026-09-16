@@ -20,14 +20,23 @@ from .db_ops import get_distributor_erp_codes
 # 'CPRI' is the ERP debtor category used for private/DTC accounts (e.g. ZCAP, ZZXXX debtors).
 # Transactions classified as DTC_SALE are excluded from commercial reporting by TX-TYPE.
 DTC_GROUPS = {
+    # Consumer/private
     'Wine Club', 'DTC', 'Private Clients', 'Society', 'Staff', 'Cellar Door',
     'Tasting Room (Cash Accounts)', 'Tasting Room - Tour Operators', 'Online Clients',
     'Legacy Members', 'Private Clients',
+    # Internal Waterford accounts — excluded from commercial market view
+    'Internal - Samples', 'Internal - Samples Lab Testing', 'Internal - Promotions',
+    'Internal - Entertainment', 'Internal - Donations & Gifts', 'Internal - Harvest Festival',
+    'Internal - Incentives', 'Internal - Stock Accounts', 'Internal - Competitions',
+    'Internal - Staff Allocations', 'Internal - Wine Shows & Exhibi',
+    'Staff Accounts',
+    # Non-wine / non-commercial transfers
+    'Non Wine Sales Accounts', 'Bulk Wine & Grape Sales', 'Transfer - Non-Bonded Location',
 }
 
 # ERP drgrpname prefixes that indicate private/DTC accounts.
 # These supplement DTC_GROUPS for classification when exact group name doesn't match.
-DTC_DRGRP_PREFIXES = ('Private', 'Wine Club', 'Cellar', 'Tasting Room', 'Online', 'Staff', 'Legacy')
+DTC_DRGRP_PREFIXES = ('Private', 'Wine Club', 'Cellar', 'Tasting Room', 'Online', 'Staff', 'Legacy', 'Internal')
 
 # ERP FIELD NOTE — kcclass:
 # kcclass='Private' in EzyWine CANNOT be used for DTC/CPRI classification.
@@ -40,11 +49,17 @@ DTC_DRGRP_PREFIXES = ('Private', 'Wine Club', 'Cellar', 'Tasting Room', 'Online'
 #
 # kcclass IS preserved in raw_data for provenance / audit — do not remove it.
 
+# ERP drgrpname values that indicate export transactions regardless of debtor name
+EXPORT_DRGROUPS = {
+    'Export - EUR', 'Export - USD', 'Export - ZAR', 'Export - GBP',
+    'Private Client - Exports',
+}
+
 EXPORT_DEBTORS = {
     'Unique Holland Wijnimport B.V.', 'RAKQ Limited', 'SA Wineimport ApS',
     'CAPE ARDOR LLC', 'Namibia Wine Merchants Pty Ltd', 'Eastern Trading',
     'LSG Skychefs SA (Pty)Ltd KENYA', 'MBM Resource Trading Int Ltd',
-    'Under the Influence (Pty) Ltd', 'BONDED Under the Influence',
+    'Under the Influence (Pty) Ltd',  # Note: BONDED Under the Influence (UNDE0002) is DOMESTIC — NOT export
     'WoW Beverages Ltd', 'CAPREO GmbH', 'Cassidy Wines Ltd',
     'Indian Ocean Export Co Pty Ltd'
 }
@@ -78,7 +93,7 @@ def classify_erp_row(
     debtor_upper  = debtor.upper()
     distributor_id = distributor_erp_codes.get(debtor_upper)
 
-    if drname in EXPORT_DEBTORS or 'export' in sarea.lower():
+    if drname in EXPORT_DEBTORS or 'export' in sarea.lower() or drgrp in EXPORT_DRGROUPS:
         return 'EXPORT_SALE', None
 
     # DTC_SALE: Wine Club, Cellar Door, Private Clients, Tasting Room, Staff, Legacy Members

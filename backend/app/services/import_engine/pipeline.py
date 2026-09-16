@@ -23,6 +23,7 @@ from app.services.import_engine.db_ops import (
     get_distributor_erp_codes, run, q1, s
 )
 from app.services.import_engine.client_matcher import match_client
+from app.services.import_engine.ownership_deriver import derive_erp_ownership
 from app.services.import_engine.product_matcher import match_product
 from app.services.import_engine.unit_normaliser import normalise_quantity
 from app.services.import_engine.dc_rules import evaluate_dc_rules, apply_dc_rules_to_new_direct_sale
@@ -109,6 +110,24 @@ def import_file(file_path: str, imported_by: str = "system",
         result['status'] = status
         result['file'] = fname
         result['source_code'] = connector['source_code']
+
+        # ── ERP ownership derivation (post-batch, non-blocking) ────────────
+        # After ERP imports derive historical client/rep ownership from srepname.
+        # Idempotent, honours MANUAL_ASSIGNMENT precedence, never overwrites
+        # human decisions. Failure is logged but does not fail the import.
+        if connector.get('source_code') == 'ERP_EXPORT':
+            try:
+                _conn2 = get_conn()
+                try:
+                    own_summary = derive_erp_ownership(_conn2, batch_id)
+                    if any(own_summary.values()):
+                        logger.info("Ownership derivation: %s", own_summary)
+                    result['ownership_summary'] = own_summary
+                finally:
+                    _conn2.close()
+            except Exception as _exc:
+                logger.warning("Ownership derivation failed (non-fatal): %s", _exc)
+
         return result
 
     except Exception as e:

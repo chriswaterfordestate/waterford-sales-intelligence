@@ -29,10 +29,9 @@ const NAV_ITEMS: NavItem[] = [
   { label: 'Users / Access',    href: '/users',            icon: Settings, phase: 1 },
   { label: 'Clients',  href: '/clients', icon: Users,           phase: 1 },
   { label: 'Sales',    href: '/sales',   icon: BarChart3,       phase: 2 },
-  { label: 'Targets',  href: '/targets', icon: Target,          phase: 2 },
+  { label: 'Targets',  href: '/targets', icon: Target,          phase: 1 },
   { label: 'CRM',      href: '/crm',     icon: MessageSquare,   phase: 3 },
   { label: 'Import Queue', href: '/imports', icon: Upload,      phase: 1 },
-  { label: 'Admin',    href: '/admin',   icon: Settings,        phase: 1 },
 ]
 
 interface AppLayoutProps {

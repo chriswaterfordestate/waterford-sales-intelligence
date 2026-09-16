@@ -9,6 +9,7 @@ import { ClientCRMPage }      from './pages/ClientCRM'
 import { ManagerViewPage }    from './pages/ManagerView'
 import { UserAccessPage }     from './pages/UserAccess'
 import { ClientsPage } from './pages/Clients'
+import { TargetsPage } from './pages/Targets'
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
               <Route path="/clients/:clientId" element={<ClientCRMPage />} />
               <Route path="/manager"           element={<ManagerViewPage />} />
               <Route path="/users"             element={<UserAccessPage />} />
+              <Route path="/targets"          element={<TargetsPage />} />
             </Routes>
         </AppLayout>
       </SignedIn>

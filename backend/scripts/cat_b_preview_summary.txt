@@ -1,0 +1,28 @@
+Category B Preview Summary
+============================================================
+Total proposed records: 392
+  CREATE_CANONICAL: 392
+  ALIAS_EXISTING:   0
+
+Group                 Debtors    Bottles        Rev ZAR  Action
+----------------------------------------------------------------------
+INDEPENDENT               293     80,099     10,692,646  CREATE_CANONICAL
+LIQUOR_CITY                15      4,142        642,044  CREATE_CANONICAL
+PICARDI                     4      6,622        470,605  CREATE_CANONICAL
+PNP_BRANCH                  3        324         33,087  CREATE_CANONICAL
+PRESTONS                    7      1,757        267,201  CREATE_CANONICAL
+SPAR_GROUP                 10      3,355        296,085  CREATE_CANONICAL
+TOPS                       44     11,279      1,275,613  CREATE_CANONICAL
+ULTRA                      13      3,150        385,417  CREATE_CANONICAL
+WALMART                     3         42          4,304  CREATE_CANONICAL
+----------------------------------------------------------------------
+TOTAL                     392    110,770     14,067,002
+
+Full detail: cat_b_preview.csv (pipe-delimited, UTF-8)
+
+PROPOSED_ACTION key:
+  CREATE_CANONICAL  — new canonical client + alias from exact ERP name
+  ALIAS_EXISTING    — new alias to existing canonical (no new canonical)
+
+No database changes have been made.
+To commit: run commit_cat_b.py after reviewing this preview.

@@ -171,6 +171,23 @@ export const reportsApi = {
     const qs = yearLabel ? `?year_label=${yearLabel}` : ''
     return apiRequest<{ rows: Array<{ product_name: string; sku_code: string; sku_name: string; bottle_size_ml: number; bottles: number; rv_confirmed: number }>; total_bottles: number; total_rv_confirmed: number }>(`/api/reports/product-mix${qs}`)
   },
+
+  repPerformance: (actualYear = 'FY2026', targetYear = 'FY2027') =>
+    apiRequest<{
+      actual_year: string; target_year: string; note: string;
+      actuals: Array<{
+        rep_name: string; rep_code: string; period_name: string;
+        calendar_month: number; calendar_year: number;
+        bottles_actual: number; rv_confirmed: number;
+        target_bottles: number | null; target_rv: number | null;
+        bottles_gap: number | null; achievement_pct: number | null;
+      }>;
+      targets: Array<{
+        rep_code: string; rep_name: string; period_name: string;
+        calendar_month: number; calendar_year: number;
+        target_bottles: number; target_rv: number;
+      }>;
+    }>(`/api/reports/rep-performance?actual_year=${actualYear}&target_year=${targetYear}`),
 }
 
 // ── Sprint 4 API methods ──────────────────────────────────────────────────────
@@ -379,4 +396,44 @@ export const crmApi = {
     const p = new URLSearchParams({client_name:clientName, action_type:actionType, due_date:dueDate, notes, follow_up_id:fuId||''})
     return `/api/crm/calendar-event.ics?${p}`
   },
+}
+
+// ── Ownership API ─────────────────────────────────────────────────────────────
+
+export interface OwnershipRecord {
+  id: string
+  full_name: string
+  rep_code: string
+  role: string
+  territory_name: string | null
+  effective_from: string
+  effective_to: string | null
+  change_reason: string
+  notes: string | null
+  is_current: boolean
+}
+
+export const ownershipApi = {
+  /** Full effective-dated ownership history for a client */
+  history: (clientId: string) =>
+    apiRequest<{ history: OwnershipRecord[] }>(`/api/clients/${clientId}/ownership`),
+
+  /** Assign a new owner (manager/admin only) */
+  change: (clientId: string, repId: string, effectiveFrom: string, notes = '') =>
+    apiRequest<{ id: string; status: string }>(`/api/clients/${clientId}/ownership`, {
+      method: 'POST',
+      body: JSON.stringify({ rep_id: repId, effective_from: effectiveFrom, notes }),
+    }),
+
+  /** Bulk-transfer clients from one rep to another (manager/admin only) */
+  bulkTransfer: (fromRepId: string, toRepId: string, effectiveFrom: string,
+                 clientIds: string[] | 'all' = 'all', notes = '') =>
+    apiRequest<{ transferred: number; effective_from: string; status: string }>(
+      '/api/clients/transfers/bulk',
+      {
+        method: 'POST',
+        body: JSON.stringify({ from_rep_id: fromRepId, to_rep_id: toRepId,
+                               effective_from: effectiveFrom, client_ids: clientIds, notes }),
+      }
+    )
 }
